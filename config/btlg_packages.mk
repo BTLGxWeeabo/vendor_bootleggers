@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
     Phonograph \
     ThemePicker
 
+# Our Weeabo apps
+PRODUCT_PACKAGES += \
+    Nekopoi
+
 ifeq ($(BOOTLEGGERS_BUILD_TYPE),Shishufied)
     PRODUCT_PACKAGES += \
         ShishuOTA
