@@ -2,15 +2,15 @@ PRODUCT_BRAND ?= Bootleggers
 
 # Versioning System
 # Bootleggers version over here.
-PRODUCT_VERSION_MAJOR = Asuna
+PRODUCT_VERSION_MAJOR = Kirito
 PRODUCT_VERSION_MINOR = Asylumtale.Ai
-BOOTLEGGERS_VERSION_NUMBER := rev.5.1
+BOOTLEGGERS_VERSION_NUMBER := rev.5.5
 BOOTLEGGERS_SONGCODEURL = https://cutt.ly/2ytT88E
 BOOTLEGGERS_EPOCH := $(shell date +%s)
 BOOTLEGGERS_POSTFIX := -$(shell date -d @$(BOOTLEGGERS_EPOCH) +"%Y%m%d-%H%M%S")
 
 ifndef BOOTLEGGERS_BUILD_TYPE
-    BOOTLEGGERS_BUILD_TYPE := Konnichiwa.
+    BOOTLEGGERS_BUILD_TYPE := OnniChan.
 endif
 
 ifdef BOOTLEGGERS_BUILD_EXTRA
